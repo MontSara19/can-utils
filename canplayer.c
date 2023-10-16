@@ -77,7 +77,7 @@ extern int optind, opterr, optopt;
 
 void print_usage(char *prg)
 {
-	fprintf(stderr, "%s - replay a compact CAN frame logfile to CAN devices.\n", prg);
+	fprintf(stderr, "%s - replay a compact CAN frame logfile to CAN devices.STOP STOP\n", prg);
 	fprintf(stderr, "\nUsage: %s <options> [interface assignment]*\n\n", prg);
 	fprintf(stderr, "Options:\n");
 	fprintf(stderr, "         -I <infile>  (default stdin)\n");
